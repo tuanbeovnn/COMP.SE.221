@@ -19,18 +19,14 @@ This is a Python-based microservice built using FastAPI that fetches weather dat
 ## Setup Instructions
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/weather-microservice.git
-   cd weather-microservice
+   git clone https://github.com/tuanbeovnn/COMP.SE.221.git
+   cd COMP.SE.221
    ```
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-3. Create a `.env` file and add your OpenWeatherMap API key:
-   ```
-   WEATHER_API_KEY=your_openweathermap_api_key
-   ```
-4. Run the service:
+3. Run the service:
    ```bash
    uvicorn main:app --reload
    ```
